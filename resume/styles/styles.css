@@ -1,5 +1,5 @@
 body{
-	background: #eee;
+	background:#b9cef4 ;
 	
 }
 ul{
@@ -18,16 +18,17 @@ ul#menu{
 }
 li{
 	width:calc(25% - 2px);
-    height:40px;
-    font-family: Georgia, serif;
-    font-size:20px;
-    text-align:center;
-    padding-top: 20px;
+        height:40px;
+        font-family: Georgia, serif;
+        font-size:20px;
+        text-align:center;
+        padding-top: 20px;
 	border: 1px solid #D5D5D5;
+	background:#099c47;
 }
 li:hover{
 	cursor: pointer;
-	background: 
+	background:#0fb737;
 }
 #cont {
 	width:900px; 
