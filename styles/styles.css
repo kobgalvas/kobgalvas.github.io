@@ -10,7 +10,7 @@ h1{
         padding-bottom: 40px;
         color:#2d2b2d;
 }
-.btn,.btn_g,.btn_n {
+.btn_r,.btn_g,.btn_l {
 	display:inline-block;
 	width:200px;
 	height:20px;
@@ -24,7 +24,7 @@ h1{
         border-radius:20px;
 }
 	
-.btn:hover,.btn_g:hover{
+.btn_r:hover,.btn_g:hover,btn_l{
 	outline: 2px solid #000;
 	cursor: pointer;
 }
