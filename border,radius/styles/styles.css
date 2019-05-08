@@ -1,0 +1,31 @@
+.border{
+	width: 200px;
+	height: 200px;
+	border-top: 5px solid violet;
+	border-bottom: 5px solid violet;
+	border-right: 5px double yellow;
+	border-left: 5px dashed green; 
+	margin-bottom: 100px;
+}
+.radius{
+	width:50px;
+	height: 50px;
+	border-radius:70px;
+	background-color:blue;
+	border:20px solid white;
+	box-shadow:0 0px 0px 20px red;
+	margin-bottom: 100px;
+	margin-left: 100px;
+	}
+.radius2{
+	width:20px;
+	height:20px;
+    background-color: blue;
+	border:10px solid white;
+	border-radius:20px;
+	box-shadow:0 0px 0px 30px white;
+	box-shadow:0 0px 0px 15px red;
+	margin-bottom: 100px;
+	margin-left: 100px;
+
+}
