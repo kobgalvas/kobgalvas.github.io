@@ -16,10 +16,10 @@
 	width:800px ;
 	height:200px ;
 	border:2px solid blue;
-	 
+	margin:0 48px;
 }
 .wrap{	
-	width:756px;
+	width:800px;
 	height:500px;
 	border: 2px solid violet;
 	margin:15px 48px;
@@ -46,5 +46,5 @@
 	width:800px ;
 	height:200px ;
 	border:2px solid yellow ;
-	
+	margin:0 48px;
 }
