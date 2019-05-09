@@ -1,0 +1,82 @@
+*{
+	margin:0px;
+	padding:0px;
+}
+.visit{
+
+	width:600px;
+	height:400px;
+	display: block;
+    margin:0 auto;
+	
+}
+.contener{
+	width: 596px;
+	height: 396px;
+	border: 2px solid black;
+	margin: 0px;
+	border-radius: 10px;
+	
+
+}
+.block{
+	display: block;
+	float: left;
+	width: 200px;
+	height: 360px;
+	border-right:3px solid black;
+    margin-top: 20px;
+}
+	
+	
+.foto{
+	display: block;
+	width:150px;
+	height:200px;
+	overflow:hidden;
+	border-radius:50%;
+	margin-left:20px;
+	margin-top: 20px;
+
+
+}
+.nick{
+	display: block;
+	width:85px;
+	height: 15px;
+	text-align: center;
+	font-size:15px;
+	margin-left:50px;
+	padding-top:10px;
+}
+
+.text{
+	width:389px;
+	height:350px; 
+	display: block;
+	float: right;
+	
+   
+}
+.date{
+	font-family: Arial,sans-serif;
+    padding-left:280px;
+}
+.star {
+	font-size:20px;
+	text-align:right;
+
+}
+.star a{
+	color:#000000;
+
+}
+.star:hover a{
+	cursor:pointer;
+	text-decoration: none;
+	color:#f4f90e;
+
+}
+.star:active a{
+	color:#f4f90e;
+}
