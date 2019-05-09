@@ -6,7 +6,8 @@
 	width:900px ;
 	height:1000px ;
 	border:2px solid red;
-    padding: 20px 48px;
+        padding: 20px 48px;
+	margin:0 auto;
 
 	
 
@@ -15,7 +16,7 @@
 	width:800px ;
 	height:200px ;
 	border:2px solid blue;
-	  
+	margin: 0 48px;  
 }
 .wrap{	
 	width:756px;
