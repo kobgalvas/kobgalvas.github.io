@@ -12,7 +12,6 @@
 }
 .contener{
 	width: 596px;
-	height: 396px;
 	border: 2px solid black;
 	margin: 0px;
 	border-radius: 10px;
@@ -23,7 +22,6 @@
 	display: block;
 	float: left;
 	width: 200px;
-	height: 360px;
 	border-right:3px solid black;
     margin-top: 20px;
 }
@@ -35,8 +33,7 @@
 	height:200px;
 	overflow:hidden;
 	border-radius:50%;
-	margin-left:20px;
-	margin-top: 20px;
+	margin:20px auto 10px;
 
 
 }
@@ -49,34 +46,30 @@
 	margin-left:50px;
 	padding-top:10px;
 }
-
+p {margin:0 0 25px 15px;}
 .text{
-	width:389px;
-	height:350px; 
+	width:389px; 
 	display: block;
 	float: right;
-	
+	margin-top: 25px;
    
 }
 .date{
 	font-family: Arial,sans-serif;
-    padding-left:280px;
+    padding:0px 35px 15px 25px;
+   	float:right;
 }
 .star {
 	font-size:20px;
 	text-align:right;
-
+	margin:-20px 25px 25px 0;
+	float:right;
 }
 .star a{
 	color:#000000;
 
 }
-.star:hover a{
+.star:hover .light {
+	color:#f4f90e;
 	cursor:pointer;
-	text-decoration: none;
-	color:#f4f90e;
-
-}
-.star:active a{
-	color:#f4f90e;
 }
