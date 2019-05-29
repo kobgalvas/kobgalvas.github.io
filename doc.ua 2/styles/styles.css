@@ -1,0 +1,183 @@
+
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+body{
+
+	 background:#127e91;
+	font-family: 'Open Sans', sans-serif;
+	 
+}
+.container{
+
+	height:706px ;
+	background:#127e91;
+	padding: 30px 5px;
+
+}
+.wrapper{
+	min-height:906px ;
+	background:#FFFFFF;
+	padding: 0 179px 27px 179px;
+}
+.header{
+	width:640px;
+	height:110px;
+	background-image: url(../images/header.png);
+	margin: 0 auto;
+	background-size: cover;
+}
+.content{
+	width: 640px;
+}
+.text{
+	width: 600px;
+	margin: 0 auto;
+}
+.aling-center{
+	display: block;
+	text-align: center;
+	padding-bottom: 20px;
+}
+.aling-center a{
+	color:#0080f3;
+}
+.text > p{
+	padding-top: 35px;
+}
+
+.center-aling{
+	padding :20px 0 10px 50px;
+
+}
+.text-bold{
+	font-weight: bold;
+}
+.row{
+	display: flex;
+	justify-content: space-around;
+	margin: 20px 20px;
+	}
+.pikture{
+	display: flex;
+	justify-content:space-around; 
+
+}
+.picture_1-2{
+	width: 255px;
+	max-height: 215px;
+}
+.picture_3-4{
+	width: 255px;
+	max-height:215px;
+   
+}
+.pikture_img{
+	width: 255px;
+	height: 215px;
+	background-size: cover;
+}
+.photo-i1{
+	background-image:url(../images/i1.png);
+}
+.photo-i2{
+	background-image:url(../images/i2.png);
+}
+.photo-i3{
+	background-image:url(../images/i3.png);
+}
+.photo-i4{
+	background-image:url(../images/i4.png);
+}
+.infanryks,.pentaksym,.mantu,.bczh{
+	padding: 10px 0px;
+	text-align: center;
+	font-weight: bold;
+}
+.btn {
+	display: block;
+	width:255px;
+	height:40px;
+	border: 1px solid red;
+	border-radius: 5px;
+	background:#f04736;
+	text-decoration: none;
+	font-family:'Open Sans', sans-serif;
+	font-size:16px;
+	text-align: center;
+    padding: 8px 10px;
+    color: #FFFFFF;
+    font-weight: bold;
+}
+.btn_fb {
+	padding: 0px 50px 30px 50px;
+}
+.btn_fb a{
+	display: block;
+	width: 540px;
+	height: 47px;
+	border: 1px solid red;
+	border-radius: 5px;
+	text-align: center;
+	text-decoration: none;
+	background:#f04736;
+	font-family:'Open Sans', sans-serif;
+	font-size:16px;
+	font-weight: bold;
+	color: #FFFFFF;
+	padding: 12px 10px;
+}
+.text2 >p{
+	padding: 0px 50px 30px 50px;
+}
+
+.footer{
+	width: 640px;
+	height: 173px;
+    background:#127e91;
+    text-align: center;
+}
+.footer >p{
+	padding-bottom: 10px
+}
+.sprite{
+	display:flex;
+	justify-content:center;
+    
+}
+.facebook.bg1,.vkontakte.bg2 {
+	width:35px;
+	height:35px;
+	margin:10px;
+}
+
+
+.facebook.bg1 {
+	
+	background-image:url(../images/facebook.png);
+    background-size: cover;
+}
+.bg1,.bg2{
+    display: flex;
+	background-position: 176px 211px;
+}
+.vkontakte.bg2 {
+	background-image:url(../images/vk.png);
+	background-size: cover;
+
+}
+p>a{
+	text-align: center;
+	font-weight: bold;
+
+}
+
+.adress,.letter,.letter a{
+     color:#FFFFFF;
+
+}
+.adress a{
+	color:#0080f3;
+}
