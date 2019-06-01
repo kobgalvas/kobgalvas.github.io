@@ -1,0 +1,248 @@
+/*
+* Landing Page - Practice
+* CSS Styles
+* http://www.idg.net.ua/blog/uchebnik-css/ispolzovanie-css/praktika-delaem-landing-page
+*
+*/
+*{
+	margin: 0;
+	padding: 0;
+}
+
+
+/* General */
+body{
+	font-family:'Raleway',Arial,sans-serif;
+  color:#979797;
+	}
+.container{
+  padding: 0px 5Vw;
+  display: flex;
+  align-items:center;
+  flex-direction: column;
+}
+
+/* Header */
+header{
+  display:flex;
+  min-height: 95px;
+}
+header>.container{
+    flex-direction:row;
+}
+/*header>nav{
+  display: none;
+  min-height: 95px;
+}*/
+.brand{
+   font-size: 2em;
+   color:#59abe3;
+   padding-right:30px;
+}
+.menu { 
+   text-align: right;
+}
+
+.menu__icon {
+   display: none;
+   width: 45px;
+   height: 35px;
+   position: relative;
+   cursor: pointer;
+}
+
+.menu__icon span {
+   display: block;
+   position: absolute;
+   height: 9px;
+   width: 100%;
+   background: #333333;
+   border-radius: 9px;
+   opacity: 1;
+   left: 0;
+   transform: rotate(0deg);
+   transition: .25s ease-in-out;
+}
+
+.menu__icon span:nth-child(1) {
+  top: 0px;
+}
+
+.menu__icon span:nth-child(2), .menu__icon span:nth-child(3) {
+  top: 13px;
+}
+
+.menu__icon span:nth-child(4) {
+  top: 26px;
+ }
+
+.menu__links-item {
+    display: inline-block;
+    color: #333333;
+    font-family: Arial;
+    font-size: 14px;
+    line-height: 30px;
+    padding: 0 10px;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+.menu__links-item:hover {
+    text-decoration: underline;
+}
+
+.menu.menu_state_open .menu__icon span:nth-child(1) {
+  top: 18px;
+  width: 0%;
+  left: 50%;
+}
+
+.menu.menu_state_open .menu__icon span:nth-child(2) {
+  transform: rotate(45deg);
+}
+
+.menu.menu_state_open  .menu__icon span:nth-child(3) {
+  transform: rotate(-45deg);
+}
+
+.menu.menu_state_open  .menu__icon span:nth-child(4) {
+  top: 18px;
+  width: 0%;
+  left: 50%;
+}
+
+.menu.menu_state_open .menu__links {
+  display: block;  
+}
+
+@media screen and (max-width: 999px) {
+  .menu__icon{
+    display: inline-block;
+  }
+  
+  .menu__links {
+    position: fixed;
+    display: none;
+    top: 0;
+    right: 0;
+    left: 0;
+    margin-top: 52px;
+    background-color: rgba(0, 0, 0, 0.8);
+    z-index: 1000;
+    overflow: auto;
+  }
+  
+  .menu__links-item {
+    display: block;
+    padding: 10px 0;
+    text-align: center;
+    color:#FFFFFF;
+  }
+}
+.jumbotron{
+  width: 100vw;
+  height: 410px;
+  background: url(../img/jumbotron.jpg);
+  background-size: cover;
+}
+.jumbotron>.container{
+  justify-content: center;
+  height: 100%;
+}
+.button{
+  width: 240px;
+  height: 60px;
+  border-radius:30px;
+  text-align:center;
+  line-height:60px;
+  font-size: 1.2em;
+  color: #FFF;
+  text-decoration: none;
+  background: #fa5ba5;
+}
+h1{
+  padding: 20px 0px;
+  color: #FFFFFF;
+}
+/* Services */
+
+
+/*@media only screen and (max-width: 999px){
+}*/
+  .service{
+       width: 265px;
+       height:135px;
+       font-size:15px;
+       padding:30px 30px;
+       align-items: center;
+       text-align: center;
+}
+.service>p{
+ font-size:10px;}
+h2{
+       width: 100%;
+       line-height: 1.5em;
+       text-align: center;
+       color:#282828;
+}
+
+@media only screen and (min-width: 600px){
+   .services>.container{
+       display: flex;
+       flex-direction: row;
+       height: 100%;}
+
+} 
+
+
+/* Blog */
+.blog>.container{
+flex-direction:column;
+}
+img{
+  padding-bottom:30px;
+}
+.post>img{
+  width:280px;
+  height: 240px;
+  margin: 0 10px;
+  float:left;
+
+}
+.post>p{
+  padding:15px 10px 15px 10px;
+  font-size: 13px;
+}
+h3{
+  padding:15px 0px 15px 0px;
+  color:#282828;
+}
+
+
+/* Footer */
+.container2{
+  height: 245px;
+  background-color:#38404b;
+  text-align: center;
+}
+.brand2{
+  color:#a4b1c4;
+  padding-top: 80px;
+  font-size:20px;
+}
+.menu2{
+   padding-top:30px;
+   padding-bottom:20px;
+}
+li{
+  display: inline;
+
+}
+li a{
+   text-decoration:none;
+  color:#a4b1c4;
+}
+.copyright{
+  color:#dadbdc;
+}
+
