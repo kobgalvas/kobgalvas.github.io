@@ -17,12 +17,12 @@
 .photo{
 	height: 100%;
 	width: 322px;
-    background:url(../images/bg.jpg)no-repeat; 
+        background:url(../images/bg.jpg)no-repeat; 
 	background-size:cover;
 }
 .burger>p{
 	font-family:Arial,sans-serif;
-    font-weight:bold;
+        font-weight:bold;
 }
 p>span:first-child{
       color:#fdca19; 
@@ -37,14 +37,14 @@ p>span:first-child{
 }
 h1{
 	font-size:43px;
-    padding: 20px 60px 0 60px;
+        padding: 20px 60px 0 60px;
 }
 h2{
 	text-align: center;
 	font-size:18px;
 	color:#333333;
-    padding: 30px 20px;
-    font-weight: normal;
+        padding: 30px 20px;
+        font-weight: normal;
 }
 .burger{
 	width:322px;
@@ -136,7 +136,7 @@ p.price1>span,p.price2>span,p.price3>span{
 	top:-35px;
 }
 .diamond1:before,.diamond1:after{
-    content: "";
+        content: "";
 	height:1px;
 	width: 200px;
 	display: block;
@@ -156,7 +156,7 @@ p.price1>span,p.price2>span,p.price3>span{
 	transform: rotate(-45deg);
 }
 .diamond3:before,.diamond3:after{
-    content: "";
+        content: "";
 	height:1px;
 	width: 200px;
 	display: block;
@@ -166,7 +166,7 @@ p.price1>span,p.price2>span,p.price3>span{
 	transform: rotate(-45deg);
 }
 .diamond4:before,.diamond4:after{
-    content: "";
+        content: "";
 	height:1px;
 	width: 200px;
 	display: block;
@@ -176,7 +176,7 @@ p.price1>span,p.price2>span,p.price3>span{
 	transform: rotate(-45deg);
 }
 .diamond5:before,.diamond5:after{
-    content: "";
+        content: "";
 	height:1px;
 	width: 200px;
 	display: block;
@@ -196,16 +196,16 @@ p.price1>span,p.price2>span,p.price3>span{
 	transform: rotate(-45deg);
 }
 a{
-    display: inline-block;
-    width:175px;
-    height:55px;
-    background:#000000;
-    text-decoration:none;
-    text-align: center;
-    line-height: 55px;
-    font-weight:bold;
-    color: #FFFFFF;
-    position: relative;
-    right:-439px;
-    bottom:-30px;
+        display: inline-block;
+        width:175px;
+        height:55px;
+        background:#000000;
+        text-decoration:none;
+        text-align: center;
+        line-height: 55px;
+        font-weight:bold;
+        color: #FFFFFF;
+        position: relative;
+        right:-439px;
+        bottom:-57px;
 }
