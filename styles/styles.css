@@ -15,12 +15,9 @@ h1{
 
 	display: flex;
 	padding:20px 30px;
-	background: green;
 }
 .align1,.align2,.align3,.align4 {
- 
-   list-style-type: none;
-   background: yellow;
+        list-style-type: none;
 }
 .btn_1,.btn_2,.btn_3,.btn_4,.btn_5,.btn_6,.btn_7,.btn_8,.btn_9,.btn_10,.btn_11,.btn_12 {
 	display: inline-block;
@@ -30,10 +27,10 @@ h1{
 	text-align:center;
 	background-color:#f85af2;
 	padding: 10px;
-    margin: 10px;
-    text-decoration: none;
-    color:#0c0c0c;
-    border-radius:20px;
+        margin: 10px;
+        text-decoration: none;
+        color:#0c0c0c;
+        border-radius:20px;
 }
 	
 .btn_1:hover,.btn_2:hover,.btn_3:hover,.btn_4:hover,.btn_5:hover,.btn_6:hover,.btn_7:hover,.btn_8:hover,.btn_9:hover,.btn_10:hover,.btn_11:hover,.btn_12:hover{
