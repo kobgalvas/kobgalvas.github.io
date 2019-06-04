@@ -1,0 +1,112 @@
+h1 {
+	display: block;
+	width:100px;
+	padding: 2px 5px;
+	position: relative;
+	margin: 20px auto;
+	text-align: center;
+}
+h1:before, h1:after{
+	content: "";
+	height:3px;
+	width: 200px;
+	display: block;
+	background: #000;
+	position:absolute;
+	top:21px;
+}
+h1:before {
+	left:104px;
+}
+h1:after {
+	right:104px;
+}
+
+/*.box{
+	width: 100px;
+	height: 100px;
+	background-color: yellow;
+	
+}
+.box::after{
+	content: "";
+	display: block;
+	width: 100px;
+	height: 100px;
+	background:grey;
+}
+
+.box::before{
+content:"";
+display: block;
+width: 100px;
+height:100px;
+background:red;
+
+
+}
+
+.box,.box::before{
+	width: 100px;
+	height: 100px;
+	outline: 4px solid #000;
+	
+}
+
+.box1::before{
+content:"";
+display: block;
+width: 200px;
+height:100px;
+background:yellow;
+
+}
+.box1::after{
+	content: "";
+	display: block;
+	width: 100px;
+	height:100px;
+	background:white;
+}
+.box2{
+	content: "";
+	display: block;
+	width: 300px;
+	height:100px;
+	background:green;
+}*/
+.box, .box1, .box2 {
+	width:200px;
+	height:80px;
+	border:2px solid #000;
+	margin-bottom:30px;
+	position: relative;
+}
+.box:after, .box1:after, .box2:after {
+	content:"";
+	display: block;
+	width:10px;
+	height:25px;
+	background: #000;
+	position: absolute;
+	top:28px;
+	right:-10px;
+}
+.box:before, .box1:before, .box2:before {
+	content:"";
+	display: block;
+	width:30%;
+	height:100%;
+	background: red;
+	position: absolute;
+	top:0px;
+	left:0px;
+}
+.box1:before {
+	width:70%;
+	background: yellow;
+}
+.box2:before {
+	width:100%;
+	background: green;
+}
