@@ -21,10 +21,10 @@ body{
     top: -9px;
 }
 .creative{
-	
+	display:inline-block;
 }
 .btn{
-    width:115px;
+        width:115px;
 	height:30px;
 	line-height:30px;
 	border-radius:5px; 
@@ -41,13 +41,13 @@ body{
 }
 .money {
 	width: 20px;
-    height: 20px;
-    padding-left: 20px;
-    background-image:url(../images/spritesheet.png);
-    background-position: 0px 0px;
+        height: 20px;
+        padding-left: 20px;
+        background-image:url(../images/spritesheet.png);
+        background-position: 0px 0px;
 }
 .btn a{
-    text-decoration:none; 
+        text-decoration:none; 
 	font-size:14px;
 	color:#433939;
 	font-weight:bold;
@@ -58,7 +58,7 @@ body{
 	justify-content: center;
 }
 .vkontakti,.odnoklasnyky,.facebook{
-    width:30px;
+        width:30px;
 	height:30px;
 	border-radius:50%;
 	border:1px solid #0193e9;
@@ -67,7 +67,7 @@ body{
 }
 .vkontakti a,.odnoklasnyky a,.facebook a{
 	display: block;
-    height: 100%
+        height: 100%
 }
 .vkontakti{background-position: -90px -126px;
 
@@ -80,16 +80,16 @@ body{
 	display:inline-block;
 }
 .skape a,.icq a,.email a,.call-me-back a{
-    text-decoration:none; 
+        text-decoration:none; 
 	font-size:12px;
 	color:#0193e9;
 	margin:10px;	
 }
 .skape{
-	width: 15px;
+    width: 15px;
     height:15px;
     padding-left:20px;
-	background-image:url(../images/spritesheet.png);
+    background-image:url(../images/spritesheet.png);
     background-position: 0px 0px;
 }
 .icq{
@@ -100,10 +100,10 @@ body{
     background-position: 0px 0px;
 }
 .email{
-	width: 15px;
+    width: 15px;
     height: 15px;
     padding-left:20px;
-	background-image:url(../images/spritesheet.png);
+    background-image:url(../images/spritesheet.png);
     background-position: 0px 0px;
 }
 .account{
@@ -111,11 +111,11 @@ body{
 }
 .account p{
 	font-size:12px;
-    color:#676767;
+        color:#676767;
 }
 .account p>a{
 	font-size:12px;
-    color:#0193e9;
+        color:#0193e9;
 }
 .logo{
 	margin:20px 0;
@@ -136,21 +136,21 @@ body{
 }
 .basket a,.like a{
 	font-size:12px;
-    color:#0193e9;
+        color:#0193e9;
 }
 .basket{
 	/*width: 15px;
     height: 15px;
     padding-left:20px;
-	background-image:url(../images/spritesheet.png);
+    background-image:url(../images/spritesheet.png);
     background-position: 0px 0px;*/
 }
 .like{
-	/*width: 15px;
-    height:15px;
-    padding-left:20px;
-	background-image:url(../images/spritesheet.png);
-    background-position: 0px 0px;*/
+   /*width: 15px;
+     height:15px;
+     padding-left:20px;
+     background-image:url(../images/spritesheet.png);
+     background-position: 0px 0px;*/
 }
 ul li>a,ol li>a{
 	font-size:14px;
@@ -224,12 +224,12 @@ h2{
     text-align:center;
 }
 h3{
-	font-size:39px;
+    font-size:39px;
     color:#0193e9;
     text-align:center;
 }
 h4{
-	font-size:18px;
+    font-size:18px;
     color:#0193e9;
     text-align:center;
 }
@@ -244,15 +244,15 @@ h4{
 	margin:0 auto;
 } 
 .image p,.service p,.delivery p{
-    font-size:14px;
+        font-size:14px;
 	color:#676767;
 }
 .image p:nth-child(3),.service p:nth-child(3),.delivery p:nth-child{
-    font-size:12px;
+        font-size:12px;
 	color:#676767;
 }
 .image a,.service a,.delivery a{
-    font-size:14px;
+        font-size:14px;
 	color:#0193e9;
 }
 .font{
@@ -265,9 +265,9 @@ h4{
 }
 .photo,.photo2 {
 	font-size:14px;
-    color:#696e71;
-    padding:;
-    text-align:center;
+        color:#696e71;
+        padding:;
+        text-align:center;
 }
 .photo p:nth-child(3),.photo2 p:nth-child(3),.bold{
 	font-weight:bold;
@@ -319,46 +319,46 @@ h4{
 }
 .news h5{
 	font-size:14px;
-    color:#0193e9;
-    text-align:center;
+        color:#0193e9;
+        text-align:center;
 }
 .news>a,.reviews>a{
-    font-size:12px;
-    color:#0193e9;
-    text-align:center;
-    padding-bottom:22px; 
+        font-size:12px;
+        color:#0193e9;
+        text-align:center;
+        padding-bottom:22px; 
    
 }
 .news>p,.reviews>p{
-    font-size:12px;
-    color:#676767;
-    text-align:center;
-    padding:12px 0 30px 0;
+        font-size:12px;
+        color:#676767;
+        text-align:center;
+        padding:12px 0 30px 0;
 }
 .reviews h5{
 	font-size:14px;
-    color:#666b6f;
-    text-align:center;
-    padding-top: 20px;
+        color:#666b6f;
+        text-align:center;
+        padding-top: 20px;
 }
 time{
-    font-size:12px;
-    color:#676767;
-    text-align:center;
-    padding-top: 20px;
+       font-size:12px;
+       color:#676767;
+       text-align:center;
+       padding-top: 20px;
 }
 .works a,.services a,.blog a{
-    font-size:12px;
-    color:#0193e9;
-    text-align:center;
+       font-size:12px;
+       color:#0193e9;
+       text-align:center;
 }
 h6{
-	font-size:14px;
-    color:#676767;
-    font-weight:bold;
+       font-size:14px;
+       color:#676767;
+       font-weight:bold;
 }
 .vkontakti1,.odnoklasnyky1,.facebook1{
-    width:30px;
+        width:30px;
 	height:30px;
 	border-radius:50%;
 	border:1px solid #fae851;
@@ -382,35 +382,4 @@ footer{
 	color:#FFFFFF;
 	text-align:center;
 	background:#0085e3; 
-}
-/*	max-width: 960px;
-	margin: 0 auto;
-	padding: 0 30px;
-	background: green;
-	
-}
-.row{
-	display: flex;
-	flex-wrap: wrap;
-	margin:0 -15px;
-}
-.creative,.sprite,.kontakt{
-	display: flex;
-	padding:0px 0px;
-	text-align: center;
-	background: red;
-	width: calc(100%-30px);
-	margin: 15px;
-}
-@media(min-width: 520px) and (max-width: 760px){
-.col-1-2{
-	width: calc(100%/12*6-30px);}
-}
-@media(min-width: 761px) and (max-width:980px){
-.col-1-3{
-	width: calc(100%/12*4-30px);}
-}
-@media screen and (min-width: 980px){
-.col-1-4{
-	width: calc(100%/12*3-30px);}*/
 }
