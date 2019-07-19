@@ -5,101 +5,106 @@
 						<title>constitutional health</title>
             <link href="css/style.css" rel="stylesheet">
             <link href="css/animate.css" rel="stylesheet">
+            <script src="http://code.jquery.com/jquery-1.9.1.js"></script>
             <script src="js/wow.min.js"></script>
             <script>
               new WOW().init();
             </script>
 					</head>
-					<body>
+				<body>
 
-						<div class="wrapper">
-                <div class="header">
+					<div class="wrapper">
+                <div class="header fixed-header scroll-mnu">
                     <div class="container">
-                      <div class="header-navbar">
-                               <div class="logo-header"><a href="#">
-                                     <img src="img/logo-header.svg" class="wow flip"></a>
+                      <div class="header-navbar ">
+                               <div class="logo-header">
+                                      <a href="#">
+                                        <img src="img/logo-header.svg" class="logo">
+                                      </a>
                                </div>
-                               <nav>
-                                 <ul>
-                                      <li><a href="#">DWD<sup><small>TM</small></sup> Protocol</a></li>
-                                      <li><a href="#">Blog</a></li>
-                                      <li><a href="#">Contact Us</a></li>
-                                 
-                                
-                                      <li><a class="btn_sign_up" href="#">Sign Up</a></li>
-                                      <li><a href="#">Sign In</a></li>
-                                  </ul>
-                                </nav>
-                             </div>
+                               <div class="nav">
+                                      <a href="#">DWD<sup><small>TM</small></sup> Protocol</a>
+                                      <a href="#">Blog</a>
+                                      <a href="#">Contact Us</a>
+                               </div>   
+                               <div class="exit">
+                                      <a href="#" class="btn">Sign Up</a>
+                                      <a href="#" class="btn-e">Sign In</a>
+                               </div>
                       </div>
+                    </div>
+                   <!-- <div class="fixed">
+                    <div class="container">
+                      <div class="header-navbar ">
+                               <div class="logo-header">
+                                      <a href="#">
+                                        <img src="img/logo-header.svg" class="logo">
+                                      </a>
+                               </div>
+                               <div class="nav">
+                                      <a href="#">DWD<sup><small>TM</small></sup> Protocol</a>
+                                      <a href="#">Blog</a>
+                                      <a href="#">Contact Us</a>
+                               </div>   
+                               <div class="exit">
+                                      <a href="#" class="btn">Sign Up</a>
+                                      <a href="#" class="btn-e">Sign In</a>
+                               </div>-->
                 </div>
-            </div>
+         
             <div class="content">
                 <div class="homepage-mobilevideo" id="homepage-mobilevideo">
              
                      
-                 <video loop autoplay>
+                  <video loop autoplay>
                           <source src="video/video_libtheora.ogv" type="video/ogg" codecs="theora, vorbis">
                           <source src="video/video_x264.mp4" type="video_x264/mp4" codecs="avc1.42E01E, mp4a.40.2">
                           <source src="video/video_VP8" type="video/webm" codecs="vp8, vorbis">
                           "Your browser does not support the video tag."
-          
                   </video>
+                  <div class="text">
+                    <div class="text-center">
+                      <h1 class="title-text-center">
+                       <strong>A personalized lifestyle philosophy to&nbsp;healthcare</strong><br><br>
+                      </h1>
+                        <div class="text-btn">
+                          <a  href="#">Our Approach</a>
+                        </div>
+                    </div>
+                  </div>
+                      <img class="hint-hidden-xs" src="img/scroll.svg" alt="Scroll">
+                      <img class="hint-visible-xs" src="img/scroll_up.svg" alt="Scroll">
                 </div> 
             </div>
             <div class="contactUs" id="contactUs">
-            <div class="container">
+              <div class="container">
                 <div class="contactUs-form">
-                  <h2 class="title wow flip">Contact Us</h2>
+                  <h2 class="title">Contact Us</h2>
                   <p class="contactUs-text">
                     Have a quastion,comment,or just want to help?<br>Feel free to contact us,we are here to help.
                   </p>
                 
-                  <!--<form method="post" action="/contact">
+                  <form method="post" action="/contact">
                         <input type="hidden" value="1" name="ContactUs[type]"></input>
                            <div class="form-group">
                                <label>Your Name</label>
-                        <input type="text" class="form-control animated bounce" name="ContactUs[name]" value="" required="" >
+                        <input type="text" class="form-control animated bounce" name="ContactUs[name]" value="" required=""></input>
                            </div>
                            <div class="form-group">
                                <label>Email</label>
-                        <input type="email" class="form-control" name="ContactUs[email]" value="" required="">
+                        <input type="email" class="form-control" name="ContactUs[email]" value="" required=""></input>
                            </div>
                            <div class="form-group">
                                <label>Message</label>
                         <textarea class="form-control" name="ContactUs[text]" required=""></textarea>
                            </div>
-
-
-
-                  <div class="text-center">
-                    <svg xmlns="http://www.w3.org/2000/svg" version="1.1" class="svg-filter">
-                      <defs>
-                        <filter id="svg-filter-contactus">
-                          <feImage xlink:href="#" x="30" y="20" width="0" height="0" result="ripple">
-                          </feImage>
-                          <feDisplacementMap xChannelSelector="R" yChannelSelector="G" color-interpolation-filters="sRGB" in="SourceGraphic" in2="ripple" scale="20" result="dm" />
-                          <feComposite operator="in" in2="ripple"></feComposite>
-                          <feComposite in2="SourceGraphic"></feComposite>
-                        </filter>
-                      </defs>
-                    </svg>
-                 
-
-                    
-                    <button class="btn btn-main btn-filter" style="filter: url('#svg-filter-contactus');" data-filter="#svg-filter-contactus">Submit
-                    </button>
-                   </div>
-                 
-                </form>-->
-
+                         <button class="form-btn">Submit</button>
+                        </div>
+                  </form>
+                </div>
               </div>
-              </div>
-            </div>    
-          
-      
-        
-                  
+            </div>
+           </div>        
     
         
           <div class="adress" id="adress">
@@ -131,7 +136,7 @@
                       <span>Send us your feedback at:</span><br>
                       <a href="#">support@constitutionalhealth.com</a>
                     </div>
-                  </div>
+                   </div>
                   <div class="adress-correspondence">
                       <span>Send us a note at:</span><br>
                       <a href="#">572 John Ross Pkwy Suite 107 #224, Rock HIll, SC 29730, United States</a>
@@ -139,7 +144,7 @@
                 </div>
                 </div>
             </div>
-          </div>
+        
           <div class="footer" id="footer">
             <div class="container">
                   <div class="footer-logo"><a href="#">
@@ -152,10 +157,10 @@
             </div>
           </div>
 
-    
-    <!--<script src="js/jq.js"></script>-->
+    <script type="text/javascript" src="js/js.js"></script>
+    <script src="js/jq.js"></script>
 							
-					</body>
-					</html>					
+			  </body>
+			</html>					
 
 
