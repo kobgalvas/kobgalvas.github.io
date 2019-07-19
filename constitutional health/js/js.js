@@ -1,9 +1,13 @@
-$(window).scroll(function(event) {
-  if($(this).scrollTop() > 105) {
-   $(".scroll-mnu").hide();
-   return false;
-   }
-  else {
-   $(".scroll-mnu").show();
-   }
-  }); 
+jQuery("document").ready(function($){
+				var h = $(window).height();
+				var nav = $('.fixed-menu');
+			 //alert(h);
+				$(window).scroll(function () {
+					if ($(this).scrollTop() > h) {
+						nav.css('display','block');
+					} else {
+						nav.css('display','none');
+					}
+				});
+			 
+			});
