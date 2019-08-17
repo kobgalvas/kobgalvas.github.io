@@ -29,10 +29,10 @@ body{
 }
 .video{
 	display:block;
-	max-width:960px;
+	max-width:860px;
 	height:340px;
 	background:#000;
-	margin:0 165px;
+	margin:0 auto;
 
 }
 .info img{
@@ -59,10 +59,10 @@ h2{
     padding: 130px 0;
 	display: flex;
 	flex-direction:row;
-	justify-content:space-around;
+	justify-content:center;
 }
 .one_month{
-	width:308px;
+	width:300px;
     height:540px;
     margin:70px auto;
 }
@@ -77,11 +77,12 @@ h2{
     margin:70px auto;
 }
 .picture {
+	display:block;
 	width:100%;
 	height:0; 
 	position:absolute;
 	top:-203px; 
-	left:calc(50% - 398px);
+	
 }
 .guarantee {
 	max-width:1132px;
@@ -99,6 +100,8 @@ h2{
 	width: 795px;
     height: auto;
     display: block;
+    margin:0 auto;
+
 }
 .response{
 	display:block;
@@ -111,18 +114,22 @@ h2{
 	margin:20px auto;
 }
 .coment{
-	margin:30px 195px;
+	display:block;
+	margin:30px auto;
+	padding:0 35px;
 }
 .coment img{
+	display:block;
 	width:265px;
 	height:330px;
 	float:left;
 	padding-right:15px;
+	margin:0 auto;
 }
 .coment p{
-	font-size:14px;
+	font-size:15px;
 	color:#000;
-	padding-bottom:12px;
+	padding-top:15px;
 }
 .btn{
 	display:block;
@@ -132,7 +139,7 @@ h2{
 	display:block;
 	width:448px;
 	height:98px;
-	margin:70px auto 123px auto;
+	margin:70px auto 123px;
 }
 footer{
     max-width:100%;
@@ -145,21 +152,25 @@ footer p{
     color:#FFFFFF;
     padding:20px 0;
 }
-@media screen and (max-width: 869px){
+@media screen and (max-width: 880px){
 	.goods{
 	   display: flex;
 	   flex-wrap:wrap;
        }
 	.guarantee img{
-		width: 650px;
+		max-width: 650px;
+		height:auto;
 		position: absolute;
-        left: 72px;
+        left:56px;
         top: 38px;
+	}
+	.info{
+		height:auto;
 	}
 	 .video {
         display: block;
         max-width: 750px;
-        height: 340px;
+        height:340px;
         background: #000;
         padding: 0 20px;
         margin: 0 auto;}
@@ -173,24 +184,24 @@ footer p{
 	   text-align: center;
 	   margin:20px auto;}
 	.guarantee img{
-	   width:500px;
-	   height:200px;
+	   max-width:550px;
+	   height:auto;
        position:absolute;
-       top:52px;
-       left:157px;}
+       top:62px;
+       left:57px;}
     .video {
        display: block;
-       max-width:500px;
-       height: 340px;
+       max-width:600px;
+       height:340px;
        background: #000;
        padding: 0 20px;
        margin: 0 auto;}
     .coment img {
 	display:block;
     width: 265px;
-    height: 330px;
+    height:auto;
     float: left;
-    margin:0 calc(50% - 132px);}
+    margin:0 auto;}
     .coment{
 	margin:30px 40px;}
     .coment p{
@@ -202,16 +213,18 @@ footer p{
     .btn a img{
 	display:block;
     width: 273px;
-    height: 98px;
-    margin: 68px calc(50% - 136px);}
+    height:auto;
+    margin: 68px auto;}
 	.response{
 
 	}
 }
+@media screen and (max-width:600px){}
+
 @media screen and (max-width:450px){
 	.video {
     display: flex;
-    align-items: center 
+   align-items:center; 
     width: 300px;
     height: 240px;
     background: #000;
@@ -221,9 +234,9 @@ footer p{
     }
 	.guarantee img{
 		width: 300px;
-		height:100px;
+		height:auto;
 		position: absolute;
-        left: 248px;
+        /*left: 248px;*/
         top: 125px;
 	}
 	.coment{
@@ -231,14 +244,12 @@ footer p{
 	.coment img {
 	display:block;
     width: 265px;
-    height: 330px;
-    float: left;
-    margin:0 calc(50% - 132px);}
+    height:auto;
+    float: left;}
     .btn a img{
 	display:block;
     width: 273px;
-    height: 98px;
-    margin: 68px calc(50% - 136px);;}
+    height:auto;}
 }
 
 
