@@ -9,8 +9,9 @@ body{
 }
 .wrapper{
 	display:block;
-	max-width:100%;
-	height:auto;
+	max-width:1174px;
+	width:100%; 
+	height:100%;
 	margin: 0 auto;
 }
 .logo{
@@ -90,6 +91,7 @@ h2{
 }
 .guarantee {
 	max-width:1132px;
+	display:block;
 	width:100%;
 	border:4px solid #55c0b8;
 	font-size:16px;
@@ -99,6 +101,7 @@ h2{
 	padding:100px 20px 60px;
 	margin: 80px auto;
 	position: relative;
+	
 
 }
 .guarantee img{
@@ -175,7 +178,7 @@ footer p{
         top: 36px;
 	}
 .info{
-        height:auto;
+		height:auto;
 	}
 .video {
         display: block;
@@ -192,15 +195,15 @@ footer{
 }
 @media screen and (max-width: 765px){
 .goods{
-	display: flex;
-	flex-direction:column;
+	    display: flex;
+	    flex-direction:column;
         justify-content:center;}
 .one_month,.six_month,.three_month{
-	text-align: center;
-	margin:20px auto;}
+	    text-align: center;
+	    margin:20px auto;}
 .guarantee img{
-	max-width:550px;
-	height:auto;
+	    max-width:550px;
+	    height:auto;
         position:absolute;
         top:62px;
         left:50%;
@@ -213,21 +216,21 @@ footer{
         padding: 0 20px;
         margin: 0 auto;}
 .coment img {
-	display:block;
+	    display:block;
         width: 265px;
         height:auto;
         float: left;
         margin:0 auto;}
 .coment{
-	margin:30px 40px;}
+	    margin:30px 40px;}
 .coment p{
         font-size:14px;
-	color:#000;
-	padding-bottom:15px;
-	line-height: 1.5
+	    color:#000;
+	    padding-bottom:15px;
+	    line-height: 1.5
     }
 .btn a img{
-	display:block;
+	    display:block;
         width: 273px;
         height:auto;
         margin: 68px auto;}
@@ -237,9 +240,9 @@ footer{
 }
 @media screen and (max-width:600px){
 .guarantee img{
-	max-width: 410px;
-	height:auto;
-        position: absolute;
+		max-width: 410px;
+		height:auto;
+		position: absolute;
         left:50%; 
         margin-left:-225px; 
         top:98px;
@@ -248,32 +251,30 @@ footer{
 
 @media screen and (max-width:450px){
 .video {
-        display: flex;
-        align-items:center; 
+        display:block;
         max-width: 300px;
-        height: 240px;
+        height: 140px;
         background: #000;
         padding: 0 20px;
-        margin-left:0px;
-        margin-right:0px;
+       
     }
 .guarantee img{
-	max-width: 300px;
-	height:auto;
-        position: absolute;
+		max-width: 300px;
+		height:auto;
+		position: absolute;
         left:50%; 
         margin-left:-165px; 
         top: 125px;
 	}
 .coment{
-	margin:30px 40px;}
+	    margin:30px 0;}
 .coment img {
-	display:block;
+	    display:block;
         width: 265px;
         height:auto;
         float: left;}
 .btn a img{
-	display:block;
+	    display:block;
         width: 273px;
         height:auto;}
 }
