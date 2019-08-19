@@ -142,56 +142,56 @@ h2{
 	margin:70px auto 123px;
 }
 footer{
-    max-width:100%;
-    height:255px;
-    background:#49bcb5; 
+        max-width:100%;
+        height:255px;
+        background:#49bcb5; 
 }
 footer p{
 	font-size:14px;
-    text-align:center;
-    color:#FFFFFF;
-    padding:20px 0;
+        text-align:center;
+        color:#FFFFFF;
+        padding:20px 25px;
 }
 @media screen and (max-width: 880px){
-	.goods{
-	    display: flex;
-	    flex-wrap:wrap;
+.goods{
+	display: flex;
+	flex-wrap:wrap;
        }
-	.guarantee img{
-		max-width: 650px;
-		height:auto;
-		position: absolute;
+.guarantee img{
+	max-width: 650px;
+	height:auto;
+	position: absolute;
         left:50%; 
         margin-left:-335px; 
         top: 36px;
 	}
-	.info{
+.info{
 		height:auto;
 	}
-	 .video {
+.video {
         display: block;
         max-width: 750px;
         height:340px;
         background: #000;
         padding: 0 20px;
         margin: 0 auto;}
-    footer{
+footer{
     	max-width:100%;
         height:255px;
         background:#49bcb5; 
     }
 }
 @media screen and (max-width: 765px){
-    .goods{
-	   display: flex;
-	    flex-direction:column;
+.goods{
+	display: flex;
+	flex-direction:column;
         justify-content:center;}
-	.one_month,.six_month,.three_month{
-	    text-align: center;
-	    margin:20px auto;}
-	.guarantee img{
-	    max-width:550px;
-	    height:auto;
+.one_month,.six_month,.three_month{
+	text-align: center;
+	margin:20px auto;}
+.guarantee img{
+        max-width:550px;
+	height:auto;
         position:absolute;
         top:62px;
         left:50%;
@@ -215,30 +215,29 @@ footer p{
         font-size:14px;
 	    color:#000;
 	    padding-bottom:15px;
-	    line-height: 1.5
+        line-height: 1.5
     }
-    .btn a img{
-	    display:block;
+.btn a img{
+	display:block;
         width: 273px;
         height:auto;
         margin: 68px auto;}
-	.response{
+.response{
 
 	}
 }
 @media screen and (max-width:600px){
-	.guarantee img{
-		max-width: 410px;
-		height:auto;
-		position: absolute;
+.guarantee img{
+	max-width: 410px;
+	height:auto;
+	position: absolute;
         left:50%; 
         margin-left:-225px; 
-        top:98px;
-	}
+        top:98px;}
 }
 
 @media screen and (max-width:450px){
-	.video {
+.video {
         display: flex;
         align-items:center; 
         max-width: 300px;
@@ -248,23 +247,22 @@ footer p{
         margin-left:0px;
         margin-right:0px;
     }
-	.guarantee img{
-		max-width: 300px;
-		height:auto;
-		position: absolute;
+.guarantee img{
+	max-width: 300px;
+	height:auto;
+	position: absolute;
         left:50%; 
         margin-left:-165px; 
-        top: 125px;
-	}
-	.coment{
-	    margin:30px 40px;}
-	.coment img {
-	    display:block;
+        top: 125px;}
+.coment{
+	margin:30px 40px;}
+.coment img {
+	display:block;
         width: 265px;
         height:auto;
         float: left;}
-    .btn a img{
-	    display:block;
+.btn a img{
+	display:block;
         width: 273px;
         height:auto;}
 }
