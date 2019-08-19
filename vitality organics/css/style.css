@@ -57,7 +57,7 @@ h2{
 
 .goods{
 	max-width:1174px;
-    padding: 0 0 130px;
+    padding: 20px 0 130px;
 	display: flex;
 	flex-direction:row;
 	justify-content:center;
@@ -167,6 +167,33 @@ footer p{
 	    display: flex;
 	    flex-wrap:wrap;
        }
+.one_month{
+	max-width:300px;
+    height:auto;
+    margin:70px auto 15px;
+}
+.six_month{
+	max-width:355px;
+    height:auto;
+    margin:0 auto;
+}
+.three_month{
+	max-width:300px;
+    height:auto;
+    margin:70px auto 15px;
+}
+.guarantee {
+	max-width:1132px;
+	display:block;
+	border:4px solid #55c0b8;
+	font-size:16px;
+	font-weight:bold;
+	color:#000000;
+	text-align:center;
+	padding:100px 0 60px;
+	margin: 80px auto;
+	position: relative;
+}
 .guarantee img{
 		max-width: 650px;
 		height:auto;
@@ -175,6 +202,9 @@ footer p{
         margin-left:-335px; 
         top: 36px;
 	}
+.guarantee p{
+	    padding:0 10px;
+}
 .info{  width:100%;
 		height:auto;
 	}
@@ -202,16 +232,13 @@ footer p{
 	    display: flex;
 	    flex-direction:column;
         justify-content:center;}
-.one_month,.six_month,.three_month{
-	    text-align: center;
-	    margin:20px auto;}
 .guarantee img{
 	    max-width:550px;
 	    height:auto;
         position:absolute;
         top:62px;
         left:50%;
-        margin-left:-300px; }
+        margin-left:-280px; }
 .video {
         display: block;
         max-width:600px;
@@ -221,11 +248,13 @@ footer p{
         margin: 0 auto;}
 .coment img {
 	    display:block;
-        width: 265px;
+        max-width: 265px;
         height:auto;
         float: left;
         margin:0 auto;}
 .coment{
+	    max-width:336px;
+	    height:auto;
 	    margin:30px auto;}
 .coment p{
         font-size:14px;
@@ -235,17 +264,18 @@ footer p{
     }
 .btn a img{
 	    display:block;
-        width: 273px;
+        max-width: 273px;
         height:auto;
         margin: 68px auto;}
 footer p{
-	font-size:14px;
-    text-align:center;
-    color:#FFFFFF;
-    padding:20px 25px;
+	    font-size:14px;
+        text-align:center;
+        color:#FFFFFF;
+        padding:20px 25px;
 }        
 .response{
-
+        max-width:400px;
+        height:auto;
 	}
 }
 @media screen and (max-width:600px){
@@ -254,7 +284,7 @@ footer p{
 		height:auto;
 		position: absolute;
         left:50%; 
-        margin-left:-225px; 
+        margin-left:-210px; 
         top:98px;
 	}
 }
@@ -268,24 +298,56 @@ footer p{
         padding: 0 20px;
        
     }
+.one_month{
+	max-width:300px;
+    height:auto;
+    margin:70px auto 15px;
+}
+.six_month{
+	max-width:355px;
+    height:auto;
+    margin:0 auto;
+}
+.three_month{
+	max-width:300px;
+    height:auto;
+    margin:70px auto 15px;
+}
+.guarantee {
+	max-width:1132px;
+	display:block;
+	border:4px solid #55c0b8;
+	font-size:16px;
+	font-weight:bold;
+	color:#000000;
+	text-align:center;
+	padding:100px 0 60px;
+	margin: 80px auto;
+	position: relative;
+}
 .guarantee img{
 		max-width: 300px;
 		height:auto;
 		position: absolute;
         left:50%; 
-        margin-left:-165px; 
+        margin-left:-150px; 
         top: 125px;
 	}
+.guarantee p{
+	    padding:0 10px;
+}
 .coment{
+	    max-width:336px;
+	    height:auto;
 	    margin:30px 0;}
 .coment img {
 	    display:block;
-        width: 265px;
+        max-width: 265px;
         height:auto;
         float: left;}
 .btn a img{
 	    display:block;
-        width: 273px;
+        max-width: 273px;
         height:auto;}
 }
 
