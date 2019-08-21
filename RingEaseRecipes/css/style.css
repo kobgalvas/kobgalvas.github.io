@@ -14,7 +14,7 @@ body {
 }
 .wrapper {
 	min-width: 320px;
-	max-width: 1250px;
+	max-width: 1150px;
 	margin: 0 auto;
 	min-height: 100%;
 	height: auto !important;
@@ -33,14 +33,14 @@ body {
 }
 .logo{
 	display:block;
-	max-width:1250px;
+	max-width:1150px;
     height:50px;
     margin:0 auto;
    
 }
 .photo{
 	display:block;
-	max-width:1250px;
+	max-width:1150px;
 	height:740px;
 	margin:0 auto;
 }
@@ -51,39 +51,39 @@ body {
 
 .book{
 	display:block;
-	max-width:1250px;
+	max-width:1150px;
 	height:870px;
 	margin:0 auto;
 }
 .book img{
 	display: block;
-	max-width:1250px;
+	max-width:1150px;
 	height:100%;
 	margin: 0 auto;
 }
 .reviews{
 	display:block;
-	max-width:1250px;
+	max-width:1150px;
 	height:735px;
 	margin:0 auto;
  
 }
 .reviews img{
 	display: block;
-	max-width:1250px;
+	max-width:1150px;
 	height:100%;
 	margin: 0 auto;
 
 }
 .gallery{
 	display:block;
-	max-width:1250px;
+	max-width:1150px;
 	height:1068px;
 	margin:0 auto;
 }
 .gallery img{
 	display: block;
-	max-width:1250px;
+	max-width:1150px;
 	height:100%;
 	margin: 0 auto;
 }	
@@ -92,14 +92,14 @@ body {
 .about{
 	display:block;
 	min-width: 320px;
-	max-width: 1250px;
+	max-width: 1150px;
 	height:928px;
 	margin:0 auto;
 	
 }
 .about img{
 	display:block;
-	max-width:1250px;
+	max-width:1150px;
 	height:100%
 	margin:0 auto;
 }
