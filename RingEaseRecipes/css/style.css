@@ -1,98 +1,337 @@
-* {
-	margin: 0;
-	padding: 0;
+*{
+	margin:0px;
+	padding:0px;
 }
-html {
-	height: 100%;
-}
-article, aside, details, figcaption, figure, footer, header, hgroup, main, nav, section, summary {
-	display: block;
-}
-body {
-	font: 12px/18px Arial, sans-serif;
-}
-.wrapper {
-	min-width: 320px;
-	max-width: 1150px;
-	margin: 0 auto;
-	min-height: 100%;
-}
-
-
-/* Header
------------------------------------------------------------------------------*/
-.header {
-	display:block;
-	max-width:100%;
-	height: 790px;
+.body{
 	margin:0 auto;
-	
+}
+.header{
+    display:block;
+	width:1400px;
+	height:783px; 
+	margin:0 auto;
 }
 .logo{
-	display:block;
-	max-width:1150px;
-    height:50px;
-    margin:0 auto;
-   
+	width:134px;
+	height:33px;
+	line-height:50px;
 }
-.photo{
+.text{
+	width:700px;
+	font-family:Arial,open-sans;
+	font-size:22px;
+	text-align:left;
+	line-height:1.5;
+	padding:70px 0 0 90px; 
+}
+.list{
+	width:900px;
+	height:auto;
+	padding:30px 0;
+}
+.arrow{
 	display:block;
-	max-width:1150px;
-	height:740px;
+	width:63px;
+	height:172px;
+    margin:0 10px 0 27px;
+}
+h1{
+	font-family:Arial,open-sans;
+	font-size:40px;
+	font-weight:bold;
+	text-align:center;
+	padding-top:20px; 
+}
+.headbar{
+	width:100%;
+	height:50px;
+	background:#2b2b2b;
+}
+.headerbook{
+    width:1400px;
+    height:auto;
+}
+.block_text{
+	padding:0 0 0 90px;
+	position:absolute;
+	top:400px;
+	
+
+}
+.block_text span{
+    font-weight:bold;
+	font-size:23px;
+	line-height:1.7;
+	padding:0 20px 10px 20px;
+	
+}
+.elipse2{
+	display:block;
+	width:10px;
+	height:10px;
+	border-radius:50%;
+	background:#0081ec;
+	position:relative;
+	top:28px;
+	left:0px;
+}
+
+.btn1{
+	display:block;
+	width:488px;
+	height:80px;
+	border-radius:5px;
+	background:#d00000;
+	line-height:80px;
+	margin:20px;
+	
+}
+.btn1 a{
+	font-family:Arial,open-sans;
+    font-size:27px;
+    font-weight:bold;
+    color:#FFFFFF;
+    text-decoration:none;
+    padding:0 0 0 35px;
+    
+}
+.btn1 img{
+	width:35px;
+	height:35px;
+	line-height:80px;
+	padding-left:20px;
+	padding-top:0px;
+}
+.part1{
+	display:block;
+	width:1400px;
+	height:auto;
 	margin:0 auto;
 }
-
-
-/* Middle
------------------------------------------------------------------------------*/
-
-.book{
-	display:block;
-	max-width:1150px;
-	height:870px;
-	margin:0 auto;
+.bookgrey_text{
+	width:700px;
+	text-align:left;
+	margin:0 80px;
 }
-.book img{
-	display: block;
-	max-width:1150px;
-	margin: 0 auto;
+.bookgrey_text p{
+	font-family:Arial,open-sans;
+	font-size:22px;
+	padding:46px 0 0 31px;
+}
+.bookgrey_text >.last{
+	padding-bottom:140px;
+}
+.blockblue{
+	width:1400px;
+	height:192px;
+	background:#0081ec;
+}
+.blockblue > span{
+    font-family:Arial,open-sans;
+    font-size:30px;
+    font-weight:bold;
+    color:#FFFFFF;
+    text-align:center;
+    padding:0 0 0 95px;
+    line-height:192px;
+    
+}
+.btn{
+	display:inline-block;
+	float:right;
+	width:488px;
+	height:80px;
+	border-radius:5px;
+	background:#f0d601;
+	line-height:80px;
+	margin:56px 73px;
+}
+.btn a{
+	font-family:Arial,open-sans;
+    font-size:27px;
+    font-weight:bold;
+    color:#FFFFFF;
+    text-decoration:none;
+    padding:0 0 0 35px;
+    
+}
+.btn img{
+	width:35px;
+	height:35px;
+	line-height:80px;
+	padding-left:20px;
+	padding-top:0px;
+}
+.bookgrey{
+	display:block;
+	float:right;
+	width:410px;
+	height:auto;
+	margin:30px 80px;
+}
+.bookblue{
+	display:block;
+	float:right;
+	width:385px;
+	height:auto;
+	margin:30px 55px 0 0;
+}
+.photo2,.photo3{
+	width:117px;
+	height:117px;
+	padding:0 20px 0 55px;
+}
+.photo1{
+	width:117px;
+	height:117px;
+	padding:30px 20px 0 55px;
+}
+.bubble{
+	width:743px;
+	height:120px;
+}
+.bubble_text{
+    display:block;
+    position:relative;
+    top:-110px;
+}
+.bubble_text span{
+    font-family:Arial,open-sans;
+    font-size:18px;
+    color:#000000;
+    font-weight:bold;
+    padding:0 0 0 250px;
+}
+.bubble_text p{
+	font-family:Arial,open-sans;
+    font-size:18px;
+    color:#000000;
+    line-height:1.5;
+    padding:0 0 0 255px;   
 }
 .reviews{
 	display:block;
-	max-width:1150px;
-	height:735px;
+	width:1400px;
+	height:auto;
+	background:#f0f0f0;
 	margin:0 auto;
- 
 }
-.reviews img{
-	display: block;
-	max-width:1150px;
-	margin: 0 auto;
-
-}
-.gallery{
+.recipes{
 	display:block;
-	max-width:1150px;
-	height:1068px;
+	width:1400px;
+	height:1063px;
 	margin:0 auto;
 }
-.gallery img{
-	display: block;
-	max-width:1150px;
-	margin: 0 auto;
-}	
-/* Footer
------------------------------------------------------------------------------*/
-.about{
+.wrap{
+	display:flex;
+	margin: 29px 0 0;
+}
+.list2{
 	display:block;
-	min-width: 320px;
-	max-width: 1150px;
-	margin:0 auto;
+	width:610px;
+	height:auto;
+	padding-left:95px;
 	
 }
-.about img{
+.elipse{
+	width:50px;
+	height:50px;
+	border-radius:50%;
+	background:#0081ec;
+	position:absolute;
+
+}
+.number{
+	font-family:Arial,open-sans;
+    font-size:24px;
+    font-weight:bold;
+    color:#FFFFFF;
+    position:relative;
+    top:10px;
+    left:17px;
+
+}
+.list2 p{
+	font-family:Arial,open-sans;
+    font-size:24px;
+    font-weight:bold;
+    margin:0 0 37px 60px;
+}
+.list2 p >span{
+	font-size:20px;
+	font-weight:normal;
+}
+.list2 >span{
+	font-family:Arial,open-sans;
+    font-size:24px;
+    font-weight:bold;
+}
+.gallery{
+	display:flex;
+	flex-direction:column;
+	margin:0 auto 150px;	
+}
+.gallery1{
+    width:610px;
+    height:auto;
+    padding-bottom:10px;
+}
+.gallery2{
+    width:610px;
+    height:auto;
+}
+.footer{
 	display:block;
-	max-width:1150px;
-	height:100%
+	width:1400px;
+	height:922px;
+	background:#f0f0f0;
 	margin:0 auto;
+}
+.line{
+	display:block;
+	width:225px;
+	height:5px;
+	background:#0081ec;
+	margin:40px auto 0 
+}
+.author{
+	display:flex;
+	width:1219px;
+	height:auto;
+	margin:76px auto 169px;
+}
+.author img{
+	display:block;
+	width:359px;
+	height:410px;
+	margin:0 16px;
+}
+.text2{
+	display:block;
+	width:827px;
+	height:370px;
+	background:#ffffff;
+	margin:0 auto;
+	font-family:Arial,open-sans;
+	font-size:24px;
+	text-align:left;
+	line-height:1.5;
+	padding: 20px 20px;
+}
+.text2 >span{
+	font-family:Arial,open-sans;
+	font-size:24px;
+	text-align:left;
+	line-height:5.8;
+}
+.name{
+	font-family:sans-serif;
+	font-size:24px;
+	text-align:left;
+	font-weight: bold;
+}
+.buttonarrow{
+	width:0px;
+	height:auto;
+	line-height:80px;
 }
