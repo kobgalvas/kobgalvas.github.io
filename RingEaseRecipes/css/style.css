@@ -2,27 +2,29 @@
 	margin:0px;
 	padding:0px;
 }
-.body{
-	margin:0 auto;
-}
 .header{
     display:block;
-	width:1400px;
-	height:783px; 
+	width:100%;
+	height:743px;
+	background:#f0f0f0; 
 	margin:0 auto;
+}
+.wrapper_logo{
+    display:block;
+    margin: 0 95px;
 }
 .logo{
 	width:134px;
 	height:33px;
-	line-height:50px;
+	margin:8px 0;
 }
 .text{
 	width:700px;
-	font-family:Arial,open-sans;
+	font-family: 'Open Sans', sans-serif;
 	font-size:22px;
 	text-align:left;
 	line-height:1.5;
-	padding:70px 0 0 90px; 
+	padding:70px 0 0 95px; 
 }
 .list{
 	width:900px;
@@ -36,33 +38,42 @@
     margin:0 10px 0 27px;
 }
 h1{
-	font-family:Arial,open-sans;
+	font-family: 'Open Sans', sans-serif;
 	font-size:40px;
 	font-weight:bold;
+	color:#003e73;
 	text-align:center;
-	padding-top:20px; 
+	padding:50px 170px 0 170px;
 }
 .headbar{
 	width:100%;
 	height:50px;
 	background:#2b2b2b;
 }
-.headerbook{
-    width:1400px;
+.book{
+    width:100%;
     height:auto;
+
+}
+.headerbook{
+    width:668px;
+    height:auto;
+    margin:35px 0;
+    float:right;
 }
 .block_text{
-	padding:0 0 0 90px;
+	padding:0 0 0 95px;
 	position:absolute;
-	top:400px;
+	top:415px;
 	
 
 }
 .block_text span{
+	font-family: 'Open Sans', sans-serif;
     font-weight:bold;
-	font-size:23px;
+	font-size:27px;
 	line-height:1.7;
-	padding:0 20px 10px 20px;
+	padding:0 20px 0 20px;
 	
 }
 .elipse2{
@@ -83,37 +94,40 @@ h1{
 	border-radius:5px;
 	background:#d00000;
 	line-height:80px;
-	margin:20px;
+	margin:20px 0 0 0;
 	
 }
 .btn1 a{
-	font-family:Arial,open-sans;
+	font-family: 'Open Sans', sans-serif;
     font-size:27px;
     font-weight:bold;
     color:#FFFFFF;
     text-decoration:none;
-    padding:0 0 0 35px;
+    margin:0 55px;
     
-}
-.btn1 img{
-	width:35px;
-	height:35px;
-	line-height:80px;
-	padding-left:20px;
-	padding-top:0px;
-}
-.buttonarrow{
-	width:35px;
-	height:35px;
-	line-height:80px;
-	padding-left:20px;
-	padding-top:0px;
 }
 .part1{
 	display:block;
-	width:1400px;
+	width:100%;
 	height:auto;
 	margin:0 auto;
+}
+h2{
+	font-family: 'Open Sans', sans-serif;
+	font-size:36px;
+	font-weight:bold;
+	color:#000000;
+	text-align:left;
+	margin:50px 0 0 30px;
+}
+h3{
+	font-family: 'Open Sans', sans-serif;
+	font-size:40px;
+	font-weight:bold;
+	color:#000000;
+	text-align:center;
+	padding:30px 0 0;
+	
 }
 .bookgrey_text{
 	width:700px;
@@ -121,7 +135,7 @@ h1{
 	margin:0 80px;
 }
 .bookgrey_text p{
-	font-family:Arial,open-sans;
+	font-family: 'Open Sans', sans-serif;
 	font-size:22px;
 	padding:46px 0 0 31px;
 }
@@ -129,12 +143,16 @@ h1{
 	padding-bottom:140px;
 }
 .blockblue{
-	width:1400px;
+	width:100%;
 	height:192px;
 	background:#0081ec;
 }
-.blockblue > span{
-    font-family:Arial,open-sans;
+.wrapper{
+	display: block;
+	margin:0 auto;
+}
+.wrapper > span{
+    font-family: 'Open Sans', sans-serif;
     font-size:30px;
     font-weight:bold;
     color:#FFFFFF;
@@ -154,20 +172,13 @@ h1{
 	margin:56px 73px;
 }
 .btn a{
-	font-family:Arial,open-sans;
+	font-family: 'Open Sans', sans-serif;
     font-size:27px;
     font-weight:bold;
     color:#FFFFFF;
     text-decoration:none;
-    padding:0 0 0 35px;
+    margin:0 70px;
     
-}
-.btn img{
-	width:35px;
-	height:35px;
-	line-height:80px;
-	padding-left:20px;
-	padding-top:0px;
 }
 .bookgrey{
 	display:block;
@@ -176,22 +187,28 @@ h1{
 	height:auto;
 	margin:30px 80px;
 }
+.reviews{
+	display:block;
+	width:100%;
+	height:auto;
+	background:#f0f0f0;
+	margin:0 auto;
+}
+.reviews_text{
+	display:block;
+	padding: 40px 95px;
+}
 .bookblue{
 	display:block;
 	float:right;
 	width:385px;
 	height:auto;
-	margin:30px 55px 0 0;
+	margin:0 auto;
 }
-.photo2,.photo3{
+.photo1,.photo2,.photo3{
 	width:117px;
 	height:117px;
-	padding:0 20px 0 55px;
-}
-.photo1{
-	width:117px;
-	height:117px;
-	padding:30px 20px 0 55px;
+
 }
 .bubble{
 	width:743px;
@@ -200,44 +217,38 @@ h1{
 .bubble_text{
     display:block;
     position:relative;
-    top:-110px;
+    top:-115px;
 }
 .bubble_text span{
-    font-family:Arial,open-sans;
+    font-family: 'Open Sans', sans-serif;
     font-size:18px;
     color:#000000;
     font-weight:bold;
-    padding:0 0 0 250px;
+    padding:0 0 0 145px;
 }
 .bubble_text p{
-	font-family:Arial,open-sans;
+	font-family: 'Open Sans', sans-serif;
     font-size:18px;
     color:#000000;
     line-height:1.5;
-    padding:0 0 0 255px;   
+    padding:0 0 0 138px;   
 }
-.reviews{
-	display:block;
-	width:1400px;
-	height:auto;
-	background:#f0f0f0;
-	margin:0 auto;
-}
+
 .recipes{
 	display:block;
-	width:1400px;
-	height:1063px;
+	width:100%;
+	height:auto;
 	margin:0 auto;
 }
 .wrap{
 	display:flex;
-	margin: 29px 0 0;
 }
 .list2{
 	display:block;
 	width:610px;
 	height:auto;
 	padding-left:95px;
+	padding-top:20px;
 	
 }
 .elipse{
@@ -249,7 +260,7 @@ h1{
 
 }
 .number{
-	font-family:Arial,open-sans;
+	font-family: 'Open Sans', sans-serif;
     font-size:24px;
     font-weight:bold;
     color:#FFFFFF;
@@ -259,7 +270,7 @@ h1{
 
 }
 .list2 p{
-	font-family:Arial,open-sans;
+	font-family: 'Open Sans', sans-serif;
     font-size:24px;
     font-weight:bold;
     margin:0 0 37px 60px;
@@ -269,14 +280,14 @@ h1{
 	font-weight:normal;
 }
 .list2 >span{
-	font-family:Arial,open-sans;
+	font-family: 'Open Sans', sans-serif;
     font-size:24px;
     font-weight:bold;
 }
 .gallery{
 	display:flex;
 	flex-direction:column;
-	margin:0 auto 150px;	
+	margin:20px auto 150px;	
 }
 .gallery1{
     width:610px;
@@ -289,7 +300,7 @@ h1{
 }
 .footer{
 	display:block;
-	width:1400px;
+	width:100%;
 	height:922px;
 	background:#f0f0f0;
 	margin:0 auto;
@@ -299,13 +310,13 @@ h1{
 	width:225px;
 	height:5px;
 	background:#0081ec;
-	margin:40px auto 0 
+	margin:30px auto 30px; 
 }
 .author{
 	display:flex;
 	width:1219px;
 	height:auto;
-	margin:76px auto 169px;
+	margin:60px auto 169px;
 }
 .author img{
 	display:block;
@@ -319,20 +330,20 @@ h1{
 	height:370px;
 	background:#ffffff;
 	margin:0 auto;
-	font-family:Arial,open-sans;
+	font-family: 'Open Sans', sans-serif;
 	font-size:24px;
 	text-align:left;
 	line-height:1.5;
 	padding: 20px 20px;
 }
 .text2 >span{
-	font-family:Arial,open-sans;
+	font-family: 'Open Sans', sans-serif;
 	font-size:24px;
 	text-align:left;
 	line-height:5.8;
 }
 .name{
-	font-family:sans-serif;
+	font-family: 'Open Sans', sans-serif;
 	font-size:24px;
 	text-align:left;
 	font-weight: bold;
